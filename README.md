@@ -9,7 +9,7 @@ Using two machine learning algorithms, Logistic regression and eXtreme Gradient 
 The dataset was created by Max Little of the University of Oxford, in collaboration with the National Centre for Voice and Speech, Denver, Colorado, who recorded the speech signals. The original study published the feature extraction methods for general voice disorders
 **Content**-The dataset is composed of a range of biomedical voice measurements from 31 people, 23 with Parkinson's disease (PD). Each column in the table is a particular voice measure, and each row corresponds one of 195 voice recording from these individuals ("name" column). The main aim of the data is to discriminate healthy people from those with PD, according to the "status" column which is set to 0 for healthy and 1 for PD.
 > Accurately detecting Parkinson's disease (PD) at an early stage is certainly indispensable for slowing down its progress and providing patients the possibility of accessing to disease-modifying therapy. Towards this end, the premotor stage in PD should be carefully monitored. An innovative deep-learning technique is introduced to early uncover whether an individual is affected with PD or not based on premotor features.
-> Attribute Information:
+> **Attribute Information:**
 > - name - ASCII subject name and recording number
 > - MDVP:Fo(Hz) - Average vocal fundamental frequency
 > - MDVP:Fhi(Hz) - Maximum vocal fundamental frequency
@@ -21,7 +21,7 @@ The dataset was created by Max Little of the University of Oxford, in collaborat
 > - RPDE,D2 - Two nonlinear dynamical complexity measures
 > - DFA - Signal fractal scaling exponent
 > - spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variation.
-**Note: 'status' acts as our Target parameter for Supervised ML**
+> **Note: 'status' acts as our Target parameter for Supervised ML**
 
 <h2> CONCLUSION</h2>
 By comparing the result of the system, the maximum classification rate is achieved by XGBoost than LR with an accuracy 95%, whereas LR achieved only 87% accuracy.
